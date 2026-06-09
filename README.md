@@ -4,7 +4,7 @@ Ok, so this is a repository for AI skills that I want to be able to install and 
 To do this I'll use [openskills](https://github.com/numman-ali/openskills), which seems like a good tool to manage skills more centrally and without the need for copy-pasting.
 
 _Note:_
-I filled this repository while I was on holiday in Bergen, Norway. I did not bring a laptop with me so I used my phone to write this. Imagine yourself doing this for a second: No keyboard. No fancy IDE. No terminal. Just the GitHub app on your phone and a ~Dream~. This is a wild ride! 😅
+I filled this repository while I was on holiday in Bergen, Norway. I did not bring a laptop with me so I used my phone to write this. Imagine yourself doing this for a second: No keyboard. No fancy IDE. No terminal. Just the GitHub app on your phone (_and a Dream_). This is a wild ride! 😅
 
 ## What skills you ask?
 
