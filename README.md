@@ -17,9 +17,9 @@ So [prettier](https://github.com/prettier/prettier) is a code formatter and I ba
 What the skill should do:
 
 1. If a `package.json` exists and prettier is not already installed, install `prettier`.
-  * If `astro` is in the dependency list, also install `prettier-plugin-astro`
+   * If `astro` is in the dependency list, also install `prettier-plugin-astro`
 1. Copy the `prettier.config.mjs` from the skill folder and add it to the root of the project.
-  * If `astro` is in the dependency list, add `plugins: ['prettier-plugin-astro'],` at the start of config object.
+   * If `astro` is in the dependency list, add `plugins: ['prettier-plugin-astro'],` at the start of config object.
 1. Create an empty `.prettierignore` file. (This is mostly depending on the project.)
 1. Add a `"prettier": "prettier . --write"` script to the package.json.
 1. If a `.vscode` folder exists and it contains a `settings.json` add `"prettier.configPath": "prettier.config.mjs"` at the end of the settings.
