@@ -187,7 +187,7 @@ Update the root `package.json`.
 Add the following script:
 
 ```json
-"prettier": "prettier . --write"
+"prettier": "prettier --write \"src/**/*.{astro,js,ts,json,css}\""
 ```
 
 If the `scripts` object does not exist, create it.
@@ -195,7 +195,7 @@ If the `scripts` object does not exist, create it.
 If a `prettier` script already exists:
 
 1. Do not overwrite it silently.
-2. If it is already `"prettier . --write"`, leave it unchanged.
+2. If it is already `"prettier --write \"src/**/*.{astro,js,ts,json,css}\""`, leave it unchanged.
 3. If it differs, explain that a Prettier script already exists and ask before replacing it.
 
 Preserve the existing formatting of `package.json` as much as possible.
@@ -243,7 +243,7 @@ After the skill runs successfully, the project should have:
 - A package script:
 
 ```json
-"prettier": "prettier . --write"
+"prettier": "prettier --write \"src/**/*.{astro,js,ts,json,css}\""
 ```
 
 - A VS Code setting, only if `.vscode/settings.json` already existed:
