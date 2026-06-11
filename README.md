@@ -23,3 +23,14 @@ What the skill should do:
 1. Create an empty `.prettierignore` file. (This is mostly depending on the project.)
 1. Add a `"prettier": "prettier --write \"src/**/*.{astro,js,ts,json,css}\""` script to the package.json.
 1. If a `.vscode` folder exists and it contains a `settings.json` add `"prettier.configPath": "prettier.config.mjs"` at the end of the settings.
+
+### setup-stylelint
+
+[Stylelint](https://github.com/stylelint/stylelint) is basically the CSS equivalent of _eslint_ when it comes to HOW you want to write your styles. And I more or less rediscovered it a few years ago, after I switched off of tailwind and went back to writing good ol' CSS.
+
+What the skill should do:
+
+1. If a `package.json` exists and stylelint is not already installed, install `stylelint` and `stylelint-order`.
+1. Copy the `stylelint.config.mjs` from the skill folder and add it to the root of the project.
+1. Add a `"lint": "stylelint \"src/**/*.css\" --fix"` script to the package.json.
+
